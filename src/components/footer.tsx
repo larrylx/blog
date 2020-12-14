@@ -3,10 +3,17 @@ import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
+  // const preferDark = window.matchMedia('(prefers-color-scheme: dark)')
   const isDark = colorMode === `dark`
   const toggleColorMode = (e: any) => {
+    // alert(preferDark.matches)
+    // alert(isDark)
     setColorMode(isDark ? `light` : `dark`)
   }
+  // if (preferDark) {
+  //   alert('sss')
+  //   setColorMode(`light`)
+  // }
 
   return (
     <Box as="footer" variant="footer">
