@@ -60,6 +60,10 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/users/*`] },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-emotion`,

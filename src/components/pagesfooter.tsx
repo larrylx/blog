@@ -2,11 +2,13 @@
 import { jsx } from "theme-ui"
 import styled from "@emotion/styled"
 import Divider from "../elements/divider"
-// import Inner from "../elements/inner"
+import Inner from "../elements/inner"
 import Content from "../elements/content"
 // import SVG from "./svg"
 import { waveAnimation } from "../styles/animations"
 import Footer from "./footer"
+// @ts-ignore
+import Notfound from "../sections/404"
 
 
 const InnerWave = styled.div`
@@ -33,7 +35,10 @@ const Pagesfooter = ({ offset, factor = 1 }: { offset: number; factor?: number }
         </InnerWave>
       </div>
     </Divider>
-    <Content speed={0.4} offset={offset} factor={factor}>
+    <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
+      <Inner>
+        <Notfound />
+      </Inner>
       <Footer />
     </Content>
   </div>

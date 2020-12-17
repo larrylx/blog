@@ -8,7 +8,7 @@ import Pageshero from '../components/pageshero'
 import Pagesfooter from '../components/pagesfooter'
 // import Intro from "../sections/intro"
 
-const Login = () => (
+const Temptest = () => (
     <Layout>
         <Parallax pages={1}>
             <Pageshero offset={0} factor={1} />
@@ -17,4 +17,4 @@ const Login = () => (
     </Layout>
 )
 
-export default Login
+export default Temptest
