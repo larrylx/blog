@@ -9,11 +9,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `larrylx`,
+    siteTitle: `Larry Liang Portfolio`,
     siteTitleAlt: `Larry Liang Portfolio`,
-    siteHeadline: `larrylx - Gatsby Theme from @lekoarts`,
+    siteHeadline: `Larry Liang Portfolio`,
     siteUrl: `https://larrylx.com`,
-    siteDescription: `Portfolio`,
+    siteDescription: `Larry Liang's Portfoli, Power by Gatsby`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@larrylx`,
